@@ -11,6 +11,6 @@
 		</ul>
 		<b>Pharmacy</b>
 		<ul>	
-			<li><a href="pharmnotes/cornell.php">Atrial Fib.</a></li>
+			<li><a href="cornell.php">Atrial Fib.</a></li>
 		</ul>
 	</aside>

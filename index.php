@@ -4,10 +4,10 @@
  
 <!--PHP inclusions-->
 	<?php 
-		include 'layout/header.php';
-		include 'layout/sidebar.php';
-		include 'layout/home.php';
-		include 'layout/footer.php';
+		include 'header.php';
+		include 'sidebar.php';
+		include 'home.php';
+		include 'footer.php';
 	?>
 	
 </html>
