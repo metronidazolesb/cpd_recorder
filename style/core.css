@@ -1,0 +1,33 @@
+header{
+	width: 100%;
+	font-family: monospace;
+	font-size: 24px;
+	text-align: center;
+	float: left;
+}
+
+aside{
+	float: left;
+	max-width: 300px;"
+}
+
+body{
+	background: black;
+	color: white;
+	font-family: monospace;
+}
+
+section{
+	background: black;
+	color: white;
+	font-family: monospace;
+	margin-left: 5cm;
+}
+
+footer{
+	width: 100%;
+	font-family: monospace;
+	text-align: center;
+	float: left;
+}
+
