@@ -8,44 +8,45 @@
 	<section>
 		<h1>Search for CPD</h1>
 		Select from the drop-down lists to search.<br><br>
-		Provider:
-		<select name="cpd_providers" multiple>
-			<option>Select</option>
-			<option>NPS</option>
-			<option>SHPA</option>
-			<option>Guild</option>
-			<option>ACP</option>
-			<option>PSA</option>
-		</select>
-		
-		Type:
-		<select name="cpd_type" multiple>
-			<option>Select</option>
-			<option>Online module</option>
-			<option>Podcast</option>
-			<option>Reading</option>
-		</select>
-		
-		CPD Credits:
-		<select name="cpd_credits">
-			<option>Select</option>
-			<option>1</option>
-			<option>2</option>
-			<option>3</option>
-		</select>
-		
-		Competencies:
-		<select name="cpd_domains" multiple>
-			<option>Select</option>
-			<option>1</option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5</option>
-		</select>
-		
-		<input type="submit" value="Search">
-		<br><br>
+		<form>
+			Provider:
+			<select name="cpd_providers" multiple>
+				<option>Select</option>
+				<option>NPS</option>
+				<option>SHPA</option>
+				<option>Guild</option>
+				<option>ACP</option>
+				<option>PSA</option>
+			</select>
+			
+			Type:
+			<select name="cpd_type" multiple>
+				<option>Select</option>
+				<option>Online module</option>
+				<option>Podcast</option>
+				<option>Reading</option>
+			</select>
+			
+			CPD Credits:
+			<select name="cpd_credits">
+				<option>Select</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+			
+			Competencies:
+			<select name="cpd_domains" multiple>
+				<option>Select</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+			
+			<input type="submit" value="Search">
+		</form>
 		<style>
 			table, th, td{
 				border: 1px solid white;
