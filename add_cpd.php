@@ -1,10 +1,13 @@
 <!--PHP inclusions-->
 	<?php 
+		include 'global.php';
 		include 'header.php';
 		include 'sidebar.php';
 	?>
 
 <!--Section-->
+
+<!-- Consider adding a search function or autofill from database, it will save so much time -->
 	<section>
 		<h1>Add NEW CPD Activity</h1>
 		<form action="">

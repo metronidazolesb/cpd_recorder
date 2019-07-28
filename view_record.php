@@ -1,5 +1,6 @@
 <!--PHP inclusions-->
 	<?php 
+		include 'global.php';
 		include 'header.php';
 		include 'sidebar.php';
 	?>
@@ -13,7 +14,8 @@
 			<option value="19-20">2019-2020</option>
 		</select>
 		<input type="submit" value="View CPD Record for year">
-		<input type="button" onclick="Exported" value="Export Record to PDF"><br><br>
+		<input type="button" onclick="Exported" value="Print Record"><br><br>
+		<!-- Record will be opened in new tab on it's own for printing via browser -->
 		<style>
 			table, th, td{
 				border: 1px solid white;

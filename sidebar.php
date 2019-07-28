@@ -2,6 +2,9 @@
 	<aside>
 		<b><u>Quick Links</u></b><br>
 		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="register.php">Register</a></li>
+			<li><a href="">Log-in</a></li>
 			<li><a href="add_cpd.php">Add CPD</a></li>
 			<li><a href="view_record.php">View Record</a></li>
 			<li><a href="search_cpd.php">Search CPD</a></li>

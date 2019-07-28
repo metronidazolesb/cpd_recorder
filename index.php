@@ -4,6 +4,7 @@
  
 <!--PHP inclusions-->
 	<?php 
+		include 'global.php';
 		include 'header.php';
 		include 'sidebar.php';
 		include 'home.php';

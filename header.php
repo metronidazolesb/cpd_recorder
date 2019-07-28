@@ -12,8 +12,4 @@
 <!--Header-->
 	<header>
 		<b><big>CPD Recorder</big></b><br>
-		<nav>
-			<a href="index.php">Home</a>
-			<a href="">Log-in</a>
-		</nav>
 	</header>
