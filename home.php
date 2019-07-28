@@ -8,4 +8,11 @@
 		If you would like to say thanks or contribute to the ongoing maintenance of the site/service, please see the support link in the page footer.
 		Thanks for visiting!
 		</p>
+		
+		<h2>Updates</h2>
+		<p>
+			<b>28-7-19:</b>
+			Front-end drafts have been created. Server-side scripting is currently under way.
+			Soon users will be able to register accounts and log in.
+		</p>
 	</section>
