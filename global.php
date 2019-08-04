@@ -6,8 +6,9 @@
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
 	
+	//Start session
 	session_start();
-	$_SESSION["cur_usr"] = "";
+	date_default_timezone_set('Australia/Brisbane');
 	
 	/* $name_of_query_return = mysqli_query($db,"sql query")
 	 * while ($ls_var = mysqli_fetch_assoc($name_of_query_return)){
