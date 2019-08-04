@@ -6,6 +6,19 @@ header{
 	float: left;
 }
 
+a:link{
+	color: yellow;
+	text-decoration: none;
+}
+
+a:visited{
+	color: yellow;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
 aside{
 	float: left;
 	max-width: 300px;"

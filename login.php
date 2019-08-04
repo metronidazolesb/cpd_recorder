@@ -7,24 +7,17 @@
 
 <!--Section-->
 	<section>
-		<h1>Registration</h1>
+		<h1>Login</h1>
 		
-		<form method = "post" action = "action_registration.php">
-			N.B. * indicate mandatory fields.<br><br>
+		<form method = "post" action = "action_login.php">
 			
-			Given name*:<br>
-			<input type="text" name="firstname" maxlength="64"><br><br>
-			
-			Last name*:<br>
-			<input type = "text" name = "surname" maxlength="64"><br><br>
-			
-			Email*:<br>
+			Email:<br>
 			<input type = "email" name = "email" maxlength="64"><br><br>
 			
-			Password*:<br>
+			Password:<br>
 			<input type = "password" name = "password" maxlength="64"><br><br>
 			
-			<input type = "submit" value = "Register Now">
+			<input type = "submit" value = "Login">
 			<input type="reset">
 			
 		</form>
