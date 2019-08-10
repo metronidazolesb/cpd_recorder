@@ -37,6 +37,7 @@
 			echo "Correct password";
 			header("location: index.php");
 			exit();
+			
 		}
 		else{
 			//If incorrect password, return to login page

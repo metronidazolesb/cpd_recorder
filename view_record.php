@@ -3,11 +3,6 @@
 		include 'global.php';
 		include 'header.php';
 		include 'sidebar.php';
-		
-		if($_SESSION["is_logged_in"] == False){
-			header("location: login.php");
-			exit();
-		}
 	?>
 
 <!--Section-->
