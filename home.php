@@ -11,6 +11,12 @@
 		
 		<h2>Updates</h2>
 		<p>
+			<b>10-8-19:</b>
+			Browsers now have limited access.
+			You must now login to submit CPD, search for CPD and view records.
+		</p>
+		
+		<p>
 			<b>28-7-19:</b>
 			Front-end drafts have been created. Server-side scripting is currently under way.
 			Soon users will be able to register accounts and log in.

@@ -10,12 +10,12 @@
 	//Assign input tags data to variables
 	//Check if any hackers are on my site hahaha
 	if(isset($_POST["email"]) && isset($_POST["password"])){
-		$email = mysqli_real_escape_string($db, $_POST["email"]);
-		$password = mysqli_real_escape_string($db, $_POST["password"]);
-		$firstname = mysqli_real_escape_string($db, $_POST["firstname"]);
-		$surname = mysqli_real_escape_string($db, $_POST["surname"]);
+		$email = $_POST["email"];
+		$password = $_POST["password"];
+		$firstname = $_POST["firstname"];
+		$surname = $_POST["surname"];
 	}
-	
+		
 	//Hash the password #NotForYouNSA
 	$hashed_password = password_hash($password, PASSWORD_DEFAULT);
 	

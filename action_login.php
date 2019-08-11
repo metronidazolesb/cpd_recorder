@@ -14,8 +14,8 @@
 	//Assign input tags data to variables
 	//Check if any hackers are on my site hahaha
 	if(isset($_POST["email"]) && isset($_POST["password"])){
-		$logged_user = mysqli_real_escape_string($db, $_POST["email"]);
-		$logged_pass = mysqli_real_escape_string($db, $_POST["password"]);
+		$logged_user = $_POST["email"];
+		$logged_pass = $_POST["password"];
 	}
 	
 	//Pull the users table
